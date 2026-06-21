@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BullBracket - Conviction Coded</title>
+
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="templatemo-catalyst-style.css">
+</head>
+<body>
+
+    <!-- ===== NAVIGATION ===== -->
+    <nav class="nav" role="navigation" aria-label="Main navigation">
+        <div class="nav-inner">
+            <a href="#" class="nav-logo" aria-label="BullBracket">
+                <span class="nav-logo-mark">
+                    <img src="assets/website.png" alt="BullBracket Logo">
+                </span>
+                BullBracket
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#metrics">Performance</a></li>
+                <li><a href="#engine">Features</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+            <div class="nav-cta">
+                <a href="#footer" class="btn-acid">Contact Us</a>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ===== SECTION 1: HERO ===== -->
+    <section class="hero">
+        <div class="container">
+            <h1 class="reveal">Conviction <span class="accent-word">Coded</span></h1>
+            <p class="hero-sub reveal">Proprietary Trading & Algo-Development Firm</p>
+            <div class="hero-actions reveal">
+                <a href="#pricing" class="btn-acid">
+                    Join Us
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </a>
+                <a href="#engine" class="btn-ghost">What We Do</a>
+            </div>
+
+            <!-- Dashboard Mockup -->
+            <div class="hero-dashboard reveal">
+                <div class="dashboard-frame">
+                    <div class="dashboard-toolbar">
+                        <div class="dashboard-dots">
+                            <span></span><span></span><span></span>
+                        </div>
+                        <div class="dashboard-toolbar-tabs">
+                            <span class="active">Overview</span>
+                            <span>Strategies</span>
+                            <span>Logs</span>
+                            <span>Accounts</span>
+                        </div>
+                        <div style="width: 50px;"></div>
+                    </div>
+                    <div class="dashboard-body">
+                        <div class="dash-stat-card">
+                            <div class="dash-stat-label">Net PNL</div>
+                            <div class="dash-stat-value">₹3.2L</div>
+                            <div class="dash-stat-change">
+                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M6 9V3M6 3L3 6M6 3L9 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                +18.2%
+                            </div>
+                        </div>
+                        <div class="dash-stat-card">
+                            <div class="dash-stat-label">Active Strategies</div>
+                            <div class="dash-stat-value">391</div>
+                            <div class="dash-stat-change">
+                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M6 9V3M6 3L3 6M6 3L9 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                + 4 Manual
+                            </div>
+                        </div>
+                        <div class="dash-stat-card">
+                            <div class="dash-stat-label">Win Rate</div>
+                            <div class="dash-stat-value">66.2%</div>
+                            <div class="dash-stat-change">
+                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M6 3V9M6 9L3 6M6 9L9 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                -3.5%
+                            </div>
+                        </div>
+                        <div class="dashboard-table-area">
+                            <div class="dash-table-header">
+                                <span>Trading Strategies</span>
+                                <span class="dash-filter">All Strats ▾</span>
+                            </div>
+                            <div class="dash-table">
+                                <div class="dash-table-row head">
+                                    <div class="dash-cell">Strategy</div>
+                                    <div class="dash-cell">PNL</div>
+                                    <div class="dash-cell">Starting Portfolio</div>
+                                    <div class="dash-cell">Return %</div>
+                                    <div class="dash-cell">Status</div>
+                                </div>
+                                <div class="dash-table-row">
+                                    <div class="dash-cell dash-cell-name">
+                                        <span class="dash-cell-icon" style="background: #DCFCE7; color: #166534;">S1</span>
+                                        NIF_50_TF
+                                    </div>
+                                    <div class="dash-cell">+38.2K</div>
+                                    <div class="dash-cell">3.3L</div>
+                                    <div class="dash-cell">11.6%</div>
+                                    <div class="dash-cell"><span class="dash-status active">Active</span></div>
+                                </div>
+                                <div class="dash-table-row">
+                                    <div class="dash-cell dash-cell-name">
+                                        <span class="dash-cell-icon" style="background: #FEF3C7; color: #92400E;">S2</span>
+                                        BN_TF
+                                    </div>
+                                    <div class="dash-cell">-4.2K</div>
+                                    <div class="dash-cell">2L</div>
+                                    <div class="dash-cell">-2.1%</div>
+                                    <div class="dash-cell"><span class="dash-status pending">Manual</span></div>
+                                </div>
+                                <div class="dash-table-row">
+                                    <div class="dash-cell dash-cell-name">
+                                        <span class="dash-cell-icon" style="background: var(--surface); color: var(--text-muted);">S3</span>
+                                        SILVER_FUT_MR
+                                    </div>
+                                    <div class="dash-cell">+1.4L</div>
+                                    <div class="dash-cell">20L</div>
+                                    <div class="dash-cell">7.3%</div>
+                                    <div class="dash-cell"><span class="dash-status active">Active</span></div>
+                                </div>
+                                <div class="dash-table-row">
+                                    <div class="dash-cell dash-cell-name">
+                                        <span class="dash-cell-icon" style="background: #E0E7FF; color: #3730A3;">S4</span>
+                                        SNP500_TF
+                                    </div>
+                                    <div class="dash-cell">0</div>
+                                    <div class="dash-cell">35L</div>
+                                    <div class="dash-cell">0%</div>
+                                    <div class="dash-cell"><span class="dash-status draft">Inactive</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SECTION 2: SPEED METRICS ===== -->
+    <section class="metrics" id="metrics">
+        <div class="container">
+            <p class="metrics-label reveal">Performance that speaks for itself</p>
+            <div class="metrics-grid">
+                <div class="metric-item reveal">
+                    <div class="metric-number"><span class="metric-highlight">60+</span><span class="metric-unit">Strategies</span></div>
+                    <p class="metric-desc">developed for clients YTD*</p>
+                </div>
+                <div class="metric-item reveal">
+                    <div class="metric-number">23<span class="metric-unit">%</span></div>
+                    <p class="metric-desc">ROI generated for clients individually in FY2024-25*</p>
+                </div>
+                <div class="metric-item reveal">
+                    <div class="metric-number">17<span class="metric-unit">Contracts</span></div>
+                    <p class="metric-desc">locked in for FY2026-27</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SECTION 3: THE ENGINE — BENTO GRID ===== -->
+    <section class="engine" id="engine">
+        <div class="container">
+            <div class="section-header reveal">
+                <p class="section-tag">The Engine</p>
+                <h2 class="section-title">How we operate</h2>
+            </div>
+            <div class="bento-grid">
+                <div class="card bento-card reveal">
+                    <div class="bento-card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 16l4-8 4 4 4-6"/></svg>
+                    </div>
+                    <h3>Research</h3>
+                    <p>Read and quantify market strategies for various assets across the tradeable financial markets.</p>
+                    <div class="bento-card-visual">
+                        <div class="mini-bars">
+                            <div class="mini-bar" style="height: 35%;"></div>
+                            <div class="mini-bar" style="height: 55%;"></div>
+                            <div class="mini-bar" style="height: 40%;"></div>
+                            <div class="mini-bar highlight" style="height: 80%;"></div>
+                            <div class="mini-bar" style="height: 60%;"></div>
+                            <div class="mini-bar" style="height: 45%;"></div>
+                            <div class="mini-bar highlight" style="height: 95%;"></div>
+                            <div class="mini-bar" style="height: 70%;"></div>
+                            <div class="mini-bar" style="height: 50%;"></div>
+                            <div class="mini-bar" style="height: 65%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bento-card reveal">
+                    <div class="bento-card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+                    </div>
+                    <h3>Coding</h3>
+                    <p>Coding the strategies to validate ideas via rigrous backtests and to finally automate execution. </p>
+                    <div class="bento-card-visual">
+                        <div class="mini-code">
+                            <span class="keyword">import</span> sqlite3, pandas <span class="keyword">as pd</span><br>
+                            <span class="keyword">conn</span> = <span class="keyword">sqlite3.connect(<span class="string">'finance_data.db'</span>)</span><br>
+                            <span class="keyword">data</span> = pd.read_sql_query(<span class="string">"SELECT * FROM stock_prices"</span>,conn)<br>
+                            <span class="keyword">conn.close()</span> 1 <span class="comment">--⚡</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bento-card reveal">
+                    <div class="bento-card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 18l6-6-6-6"/><path d="M8 6l-6 6 6 6"/></svg>
+                    </div>
+                    <h3>Monitoring</h3>
+                    <p>Ensuring optimal performance of new algorithms and improving the existing ones via machine learning (ML)</p>
+                    <div class="bento-card-visual">
+                        <div class="mini-pipeline">
+                            <div class="mini-pipeline-node">Strategies</div>
+                            <span class="mini-pipeline-arrow">→</span>
+                            <div class="mini-pipeline-node">ML_Model</div>
+                            <span class="mini-pipeline-arrow">→</span>
+                            <div class="mini-pipeline-node">Optimized_Strat</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SECTION 5: FAQ ===== -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <div class="section-header reveal">
+                <p class="section-tag">FAQ</p>
+                <h2 class="section-title">Common questions, straight answers</h2>
+            </div>
+            <div class="faq-controls reveal">
+                <button class="faq-ctrl-btn" id="faqExpandAll">Expand All</button>
+                <button class="faq-ctrl-btn" id="faqCollapseAll">Collapse All</button>
+            </div>
+            <div class="faq-list">
+                <div class="faq-item reveal">
+                    <button class="faq-question" aria-expanded="false">
+                        Why should I switch to algo-trading?
+                        <span class="faq-icon"><svg viewBox="0 0 14 14" fill="none"><path d="M7 1v12M1 7h12" stroke="#111" stroke-width="1.5" stroke-linecap="round"/></svg></span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">Algo-trading allows you to automate your daily strategies while removing the emotional drawback of manual trading, this when coupled with ML models provides us a reliable, self-learning and improving piece of code that generates returns across thousands of assets within a few clicks.</div>
+                    </div>
+                </div>
+                <div class="faq-item reveal">
+                    <button class="faq-question" aria-expanded="false">
+                        Which all assets can algo-trading be applied to?
+                        <span class="faq-icon"><svg viewBox="0 0 14 14" fill="none"><path d="M7 1v12M1 7h12" stroke="#111" stroke-width="1.5" stroke-linecap="round"/></svg></span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">Algo-trading can be applied to all tradeable assests of financial markets provided that there is ample of liquidity for the algorithm to execute its coded strategies. (Although the asset list is wide, each asset behaves differently for a single strategy and might require some tweaks for that strategy to be applicable on a different asset)</div>
+
+                    </div>
+                </div>
+                <div class="faq-item reveal">
+                    <button class="faq-question" aria-expanded="false">
+                        What data sources do you support?
+                        <span class="faq-icon"><svg viewBox="0 0 14 14" fill="none"><path d="M7 1v12M1 7h12" stroke="#111" stroke-width="1.5" stroke-linecap="round"/></svg></span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">Our systems are built around various FREE (broker provided) and PAID (subscription-based) data sources which not only let us perform quick and simple backtest but also execute strategies milli-seconds in advance when compared to retailers at large.</div>
+                    </div>
+                </div>
+                <div class="faq-item reveal">
+                    <button class="faq-question" aria-expanded="false">
+                        What is the cost of commissioning a custom strategy?
+                        <span class="faq-icon"><svg viewBox="0 0 14 14" fill="none"><path d="M7 1v12M1 7h12" stroke="#111" stroke-width="1.5" stroke-linecap="round"/></svg></span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">The cost of a custom built is dependent on various key factors that include complexity of algorithms, technologies used, hourly-pays of the team members involved, use of ML models etc. Please reach out to our sales team for a FREE, No commitments online meeting and get a detailed quote for our services. (P.S. We have a strict single follow-up policy hence be assured you won't be receiving spam calls from our end.)</div>
+                    </div>
+                </div>
+                <div class="faq-item reveal">
+                    <button class="faq-question" aria-expanded="false">
+                        Will my strategy be NDA-safe?
+                        <span class="faq-icon"><svg viewBox="0 0 14 14" fill="none"><path d="M7 1v12M1 7h12" stroke="#111" stroke-width="1.5" stroke-linecap="round"/></svg></span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">We at bull-bracket take pride in our work and offer an industry first 10-year NDA protection for strategies renewed with every changes made.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SECTION 6: CTA BANNER ===== -->
+    <section class="cta-banner">
+        <div class="container">
+            <div class="cta-banner-inner reveal">
+                <p class="cta-banner-tag">Get started today</p>
+                <h2>Ready to go from retailer to professional?</h2>
+                <p>Join the team working in 7+ markets</p>
+                <div class="cta-banner-actions">
+                    <a href="#" class="btn-acid">
+                        Job Postings
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </a>
+                    <a href="#" class="btn-dark-ghost">YouTube</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SECTION 7: FOOTER ===== -->
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <a href="#" class="nav-logo" aria-label="BullBracket">
+                        <span class="nav-logo-mark">
+                            <img src="assets/website.png" alt="BullBracket Logo">
+                        </span>
+                        BullBracket
+                    </a>
+                    <p class="footer-brand-desc">Proprietary Algorithmic Trading & Algo-Development Firm</p>
+                </div>
+                <div>
+                    <h4 class="footer-col-title">Resources</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">API Reference</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Changelog</a></li>
+                        <li><a href="#">Status Page</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="footer-col-title">Support</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Community Forum</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">System Status</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="footer-col-title">Connect</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Twitter / X</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                        <li><a href="#">YouTube</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="footer-copy">&copy; 2026 BullBracket Pvt. Ltd. All rights reserved. Made with ❤️ by Team BB</p>
+                <ul class="footer-bottom-links">
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Cookies</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Template JS -->
+    <script src="templatemo-catalyst-script.js"></script>
+
+</body>
+</html>
